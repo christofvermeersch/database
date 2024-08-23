@@ -1,7 +1,7 @@
 # Database of Test Problems
 
-## File structure
-|
+## Folder structure
+```
 |-> Functions
 |	|-> files to manipulate the database and use the problems
 |-> Problems
@@ -18,7 +18,7 @@
 |		|-> solutions of problems solved via MacaulayLab
 |-> database.csv
 |-> readme.md
-
+```
 ## Explanation of the different files
 - addproblem.m: personal function to add a problem from MATLAB (note that it uses a hardcoded path -> excluded from final database)
 - loaddatabase.m: load and display the current database
