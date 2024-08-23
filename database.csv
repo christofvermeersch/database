@@ -1,0 +1,6 @@
+id,type,basis,s,n,dmax,k,l,ma,mb,multi,posdim,solved,appid,bibid,comments
+dreesen1,ps,monomial,2,2,2,1,1,4,4,0,0,1,,dreesen-2013-back,
+dreesen4,ps,monomial,3,3,3,1,1,6,12,0,0,0,,dreesen-2013-back,"After stabilization of the nullity, there is not yet a gap zone in the null space."
+toy1,ps,monomial,4,4,4,1,1,2,Inf,0,1,0,,vermeersch-2023-block,
+arma11l4,ep,monomial,1,2,2,11,10,35,Inf,0,1,0,arma11,vermeersch-2019-globally,
+assur44,ps,unknown,8,8,3,1,1,,,,,,,,
