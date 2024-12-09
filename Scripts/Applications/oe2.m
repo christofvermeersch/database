@@ -1,4 +1,5 @@
-function [system] = oe2(u,y) 
+function [system] = oe2(u,y)
+    % TODO: extend code to any number of data points.
     eqs = cell(7,1); 
     eqs{1} = [y(3) 0 0 0 0 0 0 0; y(2) 0 1 0 0 0 0 0; y(1) 0 0 1 0 0 0 0; ...
         -u(2) 1 0 0 0 0 0 0; -6 0 0 0 1 0 0 0; -6 0 1 0 0 2 0 0; -6 0 0 1 0 0 1 0; ...
