@@ -2,9 +2,10 @@ function [mat,supp] = h2sisored1(an,bn,r)
     %H2SISORED1   H2-norm model order reduction problem.
     %   mat = H2SISORED1(an,bn,r) creates the coefficient matrices of the
     %   multiparameter eigenvalue problem that solves the H2-norm model 
-    %   order reduction problem of an n-th order model given by its 
-    %   coefficients of the transfer function (bn/an) to an r-th order 
-    %   model. It uses the so-called "first approach" from [1].
+    %   order reduction problem of an n-th order model to an r-th order 
+    %   model. It uses the so-called "first approach" from [1]. The given
+    %   n-th order model is given by its transfer function b(1)*s^{n-1} + 
+    %   b(1)*s^{n-2} + ... + b(n) / s^n + a(1)*s^{n-1} + ... + a(n).
     %
     %   [mat,supp] = H2SISORED1(...) also gives the support of the 
     %   coefficient matrices.
@@ -56,12 +57,12 @@ function [mat,supp] = h2sisored1(an,bn,r)
     % Construct matrix polynomial:
     A = sym("A",[r^3+r^2*(n+1)+r*(n+2) r^3+r^2*(n+1)+r*n+1]);
     A(1:r,1:r^3) = -kron(eye(r),gr.');
-    A(1:r,r^3+1:r^3+r^2*n) = -kron(eye(r),gm.');
+    A(1:r,r^3+1:r^3+r^2*n) = 2*kron(eye(r),gm.');
     A(1:r,r^3+r^2*n+1:end) = zeros(r,r^2+r*n+1);
     for i = 1:r
         A(r+i,1:r^3+r^2*n) = zeros(1,r^3+r^2*n);
         A(r+i,r^3+r^2*n+1:r^3+r^2*n+r^2) = -diff(gr,br(i)).';
-        A(r+i,r^3+r^2*n+r^2+1:r^3+r^2*n+r^2+r*n) = -2*diff(gm,br(i)).';
+        A(r+i,r^3+r^2*n+r^2+1:r^3+r^2*n+r^2+r*n) = 2*diff(gm,br(i)).';
         A(r+i,end) = 0;
     end
     A(2*r+1:(2+r^2)*r,1:r^3) = kron(eye(r),Tr);
@@ -84,6 +85,8 @@ function [mat,supp] = h2sisored1(an,bn,r)
         zeros(r^2,r*n) fr];
     A(2*r+r^3+r^2*n+r^2+1:2*r+r^3+r^2*n+r^2+r*n,:) = ...
         [zeros(r*n,r^3+r^2*n+r^2) Tm fm];
+
+    A
 
     % Derive the numerical coefficient matrices:
     [monomials,supp] = powers(ar,br);
