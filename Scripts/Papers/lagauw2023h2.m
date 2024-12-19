@@ -8,7 +8,7 @@
 clear all
 
 % Setup:
-model = 'FOM2' % Higher-order model
+model = 'F1' % Higher-order model
 methodology = 'MEP' % Options: system, MEP, secular
 m = 2 % Order of approximant
 
@@ -116,11 +116,12 @@ p = addPoly(addPoly(tmp1,-tmp2),-tmp3);
 % Compose MEVP:
 dinit = 2; % Degree of MEP
 nbEigs = m; % Number of eigenvalues
-[MEP,Var_mep,EigV_mep] = SYS2MEP(P,Var,[b_sym, g_sym]);
+[MEP,Var_mep,EigV_mep] = SYS2MEP(P,Var,[b_sym, g_sym])
+MEP
 mep = mepstruct(MEP,nbEigs,dinit);
 
 % % Compose polynomial matrix of MEVP:
-% mons = monomialsmatrix(2,length(Var_mep));
+% mons = monomials(2,length(Var_mep));
 % K = zeros(size(MEP{1}));
 % for i = 1:length(MEP)
 %     disp('--------')
@@ -398,8 +399,8 @@ for i = 1:length(EigV)
 end
     
 % Create monomials (both for MEP-matrices and eigenvector):
-monomials_MEP = monomialsmatrix(max(d_max),length(Var_mep));
-monomials_EigV = monomialsmatrix(1,length(EigV));
+monomials_MEP = monomials(max(d_max),length(Var_mep));
+monomials_EigV = monomials(1,length(EigV));
 
 % Compose matrices of MEP one by one: 
 Mep = cell(1,size(monomials_MEP,1));
