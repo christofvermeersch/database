@@ -5,34 +5,28 @@
 |-> Functions
 |	|-> files to manipulate the database and use the problems
 |-> Problems
-|	|-> Applications
-|	|	|-> files to solve applications
 |	|-> EigenvalueProblems
 |	|	|-> eigenvalue problems
 |	|-> PolynomialSystems
 |		|-> systems of multivariate polynomial equations
 |-> Scripts
-| 	|-> scripts to recreate results in papers
+| 	|-> Papers
+|   |   |-> scripts to recreate results in papers
+|   |-> Applications
+|       |-> scripts to generate problems (e.g., arma.m or lsrwalsh.m)
 |-> Solutions
-| 	|-> MacaulayLab
-|		|-> solutions of problems solved via MacaulayLab
-|-> database.csv
+|	|-> solutions of problems solved via MacaulayLab
+|-> database.yaml
+|-> bibids.bib
 |-> readme.md
 ```
 ## Explanation of the different files
-- addproblem.m: personal function to add a problem from MATLAB (note that it uses a hardcoded path -> excluded from final database)
-- loaddatabase.m: load and display the current database
-- loadproblem.m: load a problem from the database + copy all information from database.csv into the problemstruct
-- readproblem.m: read problem.csv without consulting database.csv (will be much faster than loadproblem  when the database is large)
-- writeproblem.m: write problem.csv without consultin database.csv
+- readproblem.m: read problem.csv (there is also an option to load information from the database)
+- writeproblem.m: write problem.csv without consulting database.yaml
 
-- arma11.m: function to create MEP that solves ARMA identification problem
+- problem.csv: file that contains the entries and support of the problem
 
-- arma11l4.csv: MEP (constructed via arma11.m) that solves a particular identification problem
-- dreesen1.csv: system
-- dreesen4.csv: system
-- toy1.csv: system
+- arma.m: script that creates an MEP to identify an autoregressive moving-average model
+- lagauw2023h2.m: script that corresponds to Sibren's paper
 
-- 23-47.m: script that corresponds to Sibren's paper
-
-- dreesen1.sol: solutions obtained via MacaulayLab when solving dreesen1.csv
+- dreesen1sol.csv: solutions obtained via MacaulayLab when solving dreesen1.csv
