@@ -1,0 +1,5219 @@
+# List of polynomial systems:
+
+- id: assur44
+  type: polynomial system
+  basis: monomial
+  equations: 8
+  variables: 8
+  degree: 3
+  rows: 1
+  cols: 1
+  affine solutions: 56
+  total solutions: Inf
+  multiplicity: false
+  positive dim: true
+  solutions: true
+  bibtex: [loesch1995parallel, verschelde1999test]
+  comments: "The system describes the positions of an Assur 4.4 group (kinematic chain of class four and order four)."
+
+- id: baker1
+  type: polynomial system
+  basis: monomial
+  equations: 2
+  variables: 2
+  degree: 2
+  rows: 1
+  cols: 1
+  affine solutions: 2
+  total solutions: 4
+  multiplicity: true
+  positive dim: false
+  solutions: true
+  bibtex: [kearfott2003existence, verschelde1999test]
+  comments: "A system with one double root at the origin."
+
+- id: batselier1
+  type: polynomial system
+  basis: monomial
+  equations: 2
+  variables: 2
+  degree: 2
+  rows: 1
+  cols: 1
+  affine solutions: 2
+  total solutions: 2
+  multiplicity: false
+  positive dim: false
+  solutions: true
+  bibtex: batselier2013numerical
+  comments: "This is Example 2.2 from the text."
+
+- id: batselier2
+  type: polynomial system
+  basis: monomial
+  equations: 2
+  variables: 2
+  degree: 2
+  rows: 1
+  cols: 1
+  affine solutions: 1
+  total solutions: 2
+  multiplicity: false
+  positive dim: false
+  solutions: true
+  bibtex: batselier2013numerical
+  comments: "This is Example 3.1 from the text."
+
+- id: batselier3
+  type: polynomial system
+  basis: monomial
+  equations: 4
+  variables: 4
+  degree: 2
+  rows: 1
+  cols: 1
+  affine solutions: 8
+  total solutions: 8
+  multiplicity: false
+  positive dim: false
+  solutions: true
+  bibtex: batselier2013numerical
+  comments: "This is Example 3.5 from the text."
+
+- id: batselier4
+  type: polynomial system
+  basis: monomial
+  equations: 3
+  variables: 3
+  degree: 4
+  rows: 1
+  cols: 1
+  affine solutions: 2
+  total solutions: Inf
+  multiplicity: false
+  positive dim: true
+  solutions: true
+  bibtex: [batselier2013numerical, batselier2014null]
+  comments: "This is Example 3.10 from the thesis and Example 3.1 from the paper."
+
+- id: batselier5
+  type: polynomial system
+  basis: monomial
+  equations: 4
+  variables: 4
+  degree: 4
+  rows: 1
+  cols: 1
+  affine solutions: 56
+  total solutions: Inf
+  multiplicity: false
+  positive dim: true
+  solutions: true
+  bibtex: [batselier2013numerical, batselier2014null]
+  comments: "This is Example 3.13 from the thesis and Example 3.4 from the paper. It has a high degree of regularity."
+
+- id: batselier6
+  type: polynomial system
+  basis: monomial
+  equations: 2
+  variables: 2
+  degree: 2
+  rows: 1
+  cols: 1
+  affine solutions: 4
+  total solutions: 4
+  multiplicity: true
+  positive dim: false
+  solutions: true
+  bibtex: [batselier2013numerical, batselier2014null]
+  comments: "This is Example 3.18 from the thesis and Example 4.3 from the paper. It has one solution with multiplicity four."
+
+- id: batselier7
+  type: polynomial system
+  basis: monomial
+  equations: 3
+  variables: 3
+  degree: 12
+  rows: 1
+  cols: 1
+  affine solutions: 1728
+  total solutions: 1728
+  multiplicity: false
+  positive dim: false
+  solutions: true
+  bibtex: [batselier2013numerical, batselier2014fast]
+  comments: "This is Example 1 from the numerical experiments in Chapter 4 of the thesis and also Example 1 from the paper. It has a high degree of regularity."
+
+- id: batselier8
+  type: polynomial system
+  basis: monomial
+  equations: 6
+  variables: 6
+  degree: 4
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: [batselier2013numerical, batselier2014fast]
+  comments: "This is Example 2 from the numerical experiments in Chapter 4 of the thesis and also Example 2 from the paper."
+
+- id: batselier9
+  type: polynomial system
+  basis: monomial
+  equations: 10
+  variables: 10
+  degree: 2
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: [batselier2013numerical, batselier2014fast]
+  comments: "This is Example 3 from the numerical experiments in Chapter 4 of the thesis and also Example 3 from the paper."
+
+- id: batselier10
+  type: polynomial system
+  basis: monomial
+  equations: 3
+  variables: 3
+  degree: 4
+  rows: 1
+  cols: 1
+  affine solutions: 22
+  total solutions: 32
+  multiplicity: false
+  positive dim: false
+  solutions: true
+  bibtex: batselier2013numerical
+  comments: "This is Example 5.4 from the text."
+
+- id: batselier11
+  type: polynomial system
+  basis: monomial
+  equations: 2
+  variables: 2
+  degree: 7
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: batselier2013numerical
+  comments: "This is Example 1 from the numerical examples in Chapter 6 in the text. It has very large coefficients."
+
+- id: batselier12
+  type: polynomial system
+  basis: monomial
+  equations: 2
+  variables: 2
+  degree: 3
+  rows: 1
+  cols: 1
+  affine solutions: 9
+  total solutions: 9
+  multiplicity: false
+  positive dim: false
+  solutions: true
+  bibtex: batselier2013numerical
+  comments: "This is Example 6.6 from the text."
+
+- id: bifurcation
+  type: polynomial system
+  basis: monomial
+  equations: 3
+  variables: 3
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: boon
+  type: polynomial system
+  basis: monomial
+  equations: 6
+  variables: 6
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi1
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi2
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi3
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi4
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi5
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi6
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi7
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi8
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi9
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi10
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi11
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi12
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi13
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi14
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi15
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi16
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi17
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi18
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi19
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi20
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi21
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi22
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi23
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi24
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: busebi25
+  type: polynomial system
+  basis: monomial
+  equations: ?
+  variables: ?
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: butcher7
+  type: polynomial system
+  basis: monomial
+  equations: 7
+  variables: 7
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: butcher8
+  type: polynomial system
+  basis: monomial
+  equations: 8
+  variables: 8
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: butemb3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: camera1s
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: caprasse 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cassou
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cbms1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cbms2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: challenge12
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: challenge12m
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: chandra4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: chandra5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: chandra6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: chemequ
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: chemequs
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: chemkin
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: circles
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cohn2 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cohn3 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: comb3000 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: comb3000s 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: conform 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: corless1 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: covertical 
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cpdm5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: curve24
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyc8emb1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic8
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic8e1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic9
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic9e2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic10
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclic11
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclohexane1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclohexane2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclohexane3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: cyclohexane4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: czaporgeddes1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: d1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: decker1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: decker2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: decker3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: derivc1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: derivc2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivc3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivc4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivc5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivd1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivd2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivm1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivm2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivm3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivm4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivr1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivr2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: derivr3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: des183
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: des2224
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: dfold
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosc1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosc2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosc3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosc4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosc5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosd1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosd2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosm1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosm2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosm3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosm4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosr1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosr2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: diochnosr3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+  
+- id: discret3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: dreesen1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is the system in (2.1) from the text."
+
+- id: dreesen2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is the system in (2.3) from the text."
+
+- id: dreesen3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is the system in (2.4) from the text."
+
+- id: dreesen4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 4.6 from the text."
+
+- id: dreesen5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 4.8 from the text."
+
+- id: dreesen6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 4.10 from the text."
+
+- id: dreesen7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 4.18 from the text."
+
+- id: dreesen8
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 5.4 from the text."
+
+- id: dreesen9
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 5.9 from the text."
+
+- id: dreesen10
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 5.13 (and also Example 6.13) from the text."
+
+- id: dreesen11
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 5.15 from the text."
+
+- id: dreesen12
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 5.20 from the text."
+
+- id: dreesen13
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 5.24 from the text."
+
+- id: dreesen14
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 6.8 from the text."
+
+- id: dreesen15
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 6.14 from the text."
+
+- id: dreesen16
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 7.3 from the text."
+
+- id: dreesen17
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 7.5 from the text."
+
+- id: dreesen18
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 8.3 from the text."
+
+- id: dreesen19
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is a variation of Example 8.3 from the text, with normalized and noisy coefficients."
+
+- id: dreesen20
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: dreesen2013back
+  comments: "This is Example 8.5 from the text."
+
+- id: eco5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: eco6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: eco7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: eco8
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: emiris
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: extcyc5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: extcyc6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: extcyc7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: extcyc8
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: fbremb2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: fbrfive4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: fbrfive12
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: filter
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: flexes
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: fourbar
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ftt
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: galois
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: game4two
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: game5two
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: game6two
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: game7two
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: gaukwa2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: gaukwa3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: gaukwa4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: geneig
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: hairer1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: hairer2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: hardone
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: heart
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: hentenryck
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: hugecusp
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: interval
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ipp1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ipp2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: issac
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: katsura5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: katsura6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: katsura7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: katsura8
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: katsura9
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: katsura10
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kinematic1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kinematic2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kotsireas1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kotsireas2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kotsireas3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kotsireas4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kotsireas5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kreuzer
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kruppa
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: kss3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ku10
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: l4norm
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: l6norm
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: largecurves
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: lebesgue
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: lgsmclust
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: lorentz
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: lumped
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: mickey
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: mignotte
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: mincamel
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: mth191
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: noon3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: noon4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: noon5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ojika1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ojika2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ojika3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: ojika4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: overdet
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pb601
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pb601es
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pb601vs
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: phcpack1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: phcpack2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pcpack3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: phcpack4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: phcpack5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pltp34sys
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pole27sys
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pole28sys
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pole34sys
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: pole43sys
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: proddeco
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: puma
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quadfor2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quadgrid
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic21
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic22
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic23
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic24
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic25
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic26
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic27
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic28
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic29
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: quartic210
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rabmo
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rbpl
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rbpl24
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rbpl24es
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rbpl24s
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rcyc8emb1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rcyc9emb2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redcyc5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redcyc6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redcyc7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redcyc8
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redeco5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redeco6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redeco7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: redeco8
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rediff3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: reif
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: reimer4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: reimer5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: robspat
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rose
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: rps10
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: sendra
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: sings
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: singular24
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: singular44
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: solotarev
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: sparse5
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: speer
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: spider
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: spiral
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: stewgou40
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: surf6
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: surf7
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: surfc
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: swinnertondyer
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: tangents1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: tangents2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: tangents3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: telen1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: telen2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: telen3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: telen4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toy1_cheb
+  type: polynomial system
+  basis: chebyshev
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toy1
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toy2
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toy3
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toy4
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: trinks
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: tryme
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: utbikker
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: vertlines
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: virasoro
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: walsh_cheb
+  type: polynomial system
+  basis: chebyshev
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: wilkinson
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: wilkinsonerror
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: wood
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: wright
+  type: polynomial system
+  basis: monomial
+  equations: 
+  variables: 
+  degree: 
+  rows: 1
+  cols: 1
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+# List of eigenvalue problems:
+
+- id: alsubaie1
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: alsubaie2
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: alsubaie3
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: gungah1
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: gungah2
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: gungah3
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2agudelo
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2f1
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2f2
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2f3
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2f5
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2f6
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2fom2r2
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2fom2r3
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2fom2r4
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2fom2r5
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2fom2r6
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2fourdisk
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2simple
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: h2spanos3r4
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: hkp1
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: hkp2
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: muhic1
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: muhic2
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: muhic3
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: muhic4
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toymep1
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toymep2
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: toymep3
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: volkmer
+  type: eigenvalue problem
+  basis: monomial
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
+
+- id: wing_cheb
+  type: eigenvalue problem
+  basis: chebyshev
+  equations: 1
+  variables: 
+  degree: 
+  rows: 
+  cols: 
+  affine solutions: ?
+  total solutions: ?
+  multiplicity: ?
+  positive dim: ?
+  solutions: false
+  bibtex: 
+  comments: 
