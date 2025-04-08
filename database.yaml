@@ -4814,8 +4814,8 @@
   total solutions: 3
   multiplicity: false
   solutions: true
-  bibtex: 
-  comments: 
+  bibtex: vermeersch2023block
+  comments:
 
 - id: toymep2
   type: eigenvalue problem
