@@ -40,12 +40,17 @@ There are three different types of problems: system of square multiparameter eig
     - type: SMEP
     - database: none
     - application: none
-    - reference: pons2019nonlinear
+    - reference: pons2017multiparameter, pons2019nonlinear
 - Hopf bifurcations
     - type: SMEP
     - database: none
     - application: none
     - reference: meerbergen2010shift
+- Stability of delay-differential equations
+    - type: SMEP
+    - database: none
+    - application: none
+    - reference: jarlebring2009polynomial
 
 ## Cryptography
 
@@ -66,12 +71,17 @@ There are three different types of problems: system of square multiparameter eig
     - type: SMEP
     - database: none
     - application: none
-    - reference: gheorghiu2012spectral, plestenjak2015spectral, volkmer1988multiparameter, atkinson2011multiparameter, willatzen2011separable
+    - reference: gheorghiu2012spectral, plestenjak2015spectral, volkmer1988multiparameter, atkinson2011multiparameter, willatzen2011separable, willatzen2005numerical
 - Wave and vibration simulation through structures
     - type: SMEP
     - database: none
     - application: none
     - reference: gravenkamp2025computation, kiefer2023computing
+- Electromagnetic wave propagation
+    - type: SMEP
+    - database: none
+    - application: none
+    - reference: valovik2022multiparameter
 
 ## Multivariate polynomial systems and optimization problems
 
